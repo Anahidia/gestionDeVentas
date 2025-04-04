@@ -1,0 +1,176 @@
+[
+    {
+        "name": "GTS 2165",
+        "category": "Parlante",
+        "stock": 1,
+        "price": 28000
+    },
+    {
+        "name": "GTS 1847",
+        "category": "Parlante",
+        "stock": 1,
+        "price": 10000
+    },
+    {
+        "name": "GTS 1835",
+        "category": "Parlante",
+        "stock": 1,
+        "price": 10000
+    },
+    {
+        "name": "GTS 1732",
+        "category": "Parlante",
+        "stock": 1,
+        "price": 10000
+    },
+    {
+        "name": "GTS 1922",
+        "category": "Parlante",
+        "stock": 1,
+        "price": 10000
+    },
+    {
+        "name": "GTS 1283",
+        "category": "Parlante",
+        "stock": 1,
+        "price": 0
+    },
+    {
+        "name": "Pro 21",
+        "category": "Auricular",
+        "stock": 1,
+        "price": 15000
+    },
+    {
+        "name": "Dinox Hi-Fi",
+        "category": "Auricular",
+        "stock": 1,
+        "price": 0
+    },
+    {
+        "name": "Pc-900",
+        "category": "Auricular",
+        "stock": 3,
+        "price": 0
+    },
+    {
+        "name": "JS-8",
+        "category": "Auricular BT",
+        "stock": 1,
+        "price": 18000
+    },
+    {
+        "name": "AU-11011",
+        "category": "Auricular BT",
+        "stock": 1,
+        "price": 18000
+    },
+    {
+        "name": "F9",
+        "category": "Auricular",
+        "stock": 1,
+        "price": 20000
+    },
+    {
+        "name": "AG5",
+        "category": "Auricular BT",
+        "stock": 2,
+        "price": 0
+    },
+    {
+        "name": "AU-11002",
+        "category": "Auricular Samsung",
+        "stock": 12,
+        "price": 5000
+    },
+    {
+        "name": "4Dicos",
+        "category": "Auricular",
+        "stock": 5,
+        "price": 3000
+    },
+    {
+        "name": "Inear",
+        "category": "Auricular",
+        "stock": 3,
+        "price": 0
+    },
+    {
+        "name": "AU-12005",
+        "category": "Auricular BT",
+        "stock": 1,
+        "price": 18000
+    },
+    {
+        "name": "N8 (2.1)",
+        "category": "Cabezón",
+        "stock": 6,
+        "price": 0
+    },
+    {
+        "name": "Otawa",
+        "category": "Auricular",
+        "stock": 2,
+        "price": 0
+    },
+    {
+        "name": "AU-11011",
+        "category": "Auricular",
+        "stock": 4,
+        "price": 9000
+    },
+    {
+        "name": "Tipo C (3.0)",
+        "category": "Cabezón",
+        "stock": 2,
+        "price": 0
+    },
+    {
+        "name": "VB (3.1)",
+        "category": "Cabezón",
+        "stock": 1,
+        "price": 0
+    },
+    {
+        "name": "USB + TC",
+        "category": "Cabezón",
+        "stock": 2,
+        "price": 7000
+    },
+    {
+        "name": "TC (Samsung)",
+        "category": "Cabezón",
+        "stock": 2,
+        "price": 6000
+    },
+    {
+        "name": "VB - Común",
+        "category": "USB",
+        "stock": 6,
+        "price": 0
+    },
+    {
+        "name": "VB - Otawa",
+        "category": "USB",
+        "stock": 3,
+        "price": 0
+    },
+    {
+        "name": "VB - Dinox (5.1)",
+        "category": "USB",
+        "stock": 5,
+        "price": 0
+    },
+    {
+        "name": "VB (3.1) (Izone)",
+        "category": "USB",
+        "stock": 4,
+        "price": 0
+    },
+    {
+        "name": "VB (3.1) (Dinox)",
+        "category": "USB",
+        "stock": 3,
+        "price": 0
+    }
+]
