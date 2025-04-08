@@ -4,8 +4,9 @@ import {
     Column,
     ManyToOne,
     JoinColumn,
+    Unique
   } from 'typeorm';
-  import { IsString, IsNumber } from 'class-validator';
+  import { IsString, IsNumber, IsEmpty } from 'class-validator';
 import { Category } from './categorys.entity';
 
   @Entity('products')
@@ -15,6 +16,7 @@ export class Product {
 
   @Column()
   @IsString()
+  @Unique(['name'])
   name: string;
 
   @ManyToOne(() => Category, { eager: true })
@@ -29,7 +31,7 @@ export class Product {
   @IsNumber()
   stock: number;
 
-  @Column()
+  @Column({ nullable: true })
   @IsString()
   imgUrl:string
 }

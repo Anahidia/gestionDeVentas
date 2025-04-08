@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const seeders=app.get(SeedersService)
-  //await seeders.seed()
+  await seeders.seed()
 
   app.enableCors({
     origin: true,
@@ -14,7 +14,7 @@ async function bootstrap() {
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
   });
-  
+
   await app.listen(process.env.APP_PORT ?? 3000);
 }
 bootstrap();

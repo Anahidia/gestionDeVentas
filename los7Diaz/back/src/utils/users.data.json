@@ -1,0 +1,25 @@
+[
+    
+    {  
+        "name": "Anahi",
+        "email": "anahi@example.com",
+        "password": "CuentaAdmin",
+        "role": "admin"
+    },
+    {  
+        "name": "Ariel",
+        "email": "ariel@example.com",
+        "password": "hashed_password_1"
+    },
+    {
+        
+        "name": "Juan",
+        "email": "juan@example.com",
+        "password": "hashed_password_2"
+    },
+    {
+        "name": "Maria",
+        "email": "maria@example.com",
+        "password": "hashed_password_3"
+    }
+]

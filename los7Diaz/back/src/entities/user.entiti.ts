@@ -1,9 +1,11 @@
 import {
      Entity, 
      PrimaryGeneratedColumn,
-     Column }
+     Column, 
+     OneToMany}
        from 'typeorm';
 import { IsEmail, IsEnum, IsString, MinLength } from 'class-validator';
+import { Sale } from './sales.entity';
 
 export enum UserRole {
   ADMIN = 'admin',
@@ -31,4 +33,7 @@ export class User {
   @Column({ type: 'enum', enum: UserRole, default: UserRole.SELLER })
   @IsEnum(UserRole)
   rol: UserRole;
+
+  @OneToMany(() => Sale, sale => sale.seller)
+  sales: Sale[];
 }

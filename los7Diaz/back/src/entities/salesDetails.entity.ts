@@ -22,4 +22,6 @@ export class SaleDetail {
   @ManyToOne(() => Sale, (sale) => sale.details)
   @JoinColumn()
   sale: Sale;
+
+  
 }
